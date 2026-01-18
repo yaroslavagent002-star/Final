@@ -69,7 +69,7 @@ if obj.auditSite():
     site = obj.getInfo()
 
     if site:
-        obj.showInfo()
+        obj.showInfo ()
         obj.showInfo(site)
         bitcoin = site[0]['price']
         bit = float(bitcoin.replace('$', '').replace(',', ''))
