@@ -83,6 +83,7 @@ if obj.auditSite():
         obj.showInfo(site)
 
 
+
         first = site[0]
         print ("Наипшить в гривнях суму на яку ви хочете купити")
         amount = int(input())
